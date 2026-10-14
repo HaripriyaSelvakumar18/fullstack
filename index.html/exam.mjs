@@ -24,5 +24,8 @@ let findmax=(a,b)=>{
         }
     }
 }
+
+console.log("hello");
+
 export default add; // defalut export
 export {subtract,multiply}// defalut export
