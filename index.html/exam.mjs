@@ -1,8 +1,20 @@
+// ESG MODULE
+
 let add=(a,b)=>{
     return a+b;
 }
-let subtract=(c,d)=>{
-    return c-d;
+let subtract=(a,b)=>{
+    return a-b;
 }
-export default add ;
-export {subtract} ;
+let multiply=(a,b)=>{
+    return a*b;
+}
+let findmax=(a,b)=>{
+    if(a>b){
+     return a;
+    }else{
+        return b;
+    }
+}
+export default add; // defalut export
+export {subtract,multiply}// defalut export
