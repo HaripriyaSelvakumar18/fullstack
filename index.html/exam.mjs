@@ -15,6 +15,14 @@ let findmax=(a,b)=>{
     }else{
         return b;
     }
+    let FindMin=(a,b)=>{
+        if(a>b){
+            return a;
+        }
+        else{
+            return b;
+        }
+    }
 }
 export default add; // defalut export
 export {subtract,multiply}// defalut export
